@@ -16,7 +16,7 @@ function rolarDado(dado) {
     i++;
   }
   numeroAleatorio+=parseInt(input_modificador.value);
-  output.innerHTML="O Resultado da sua rolagem de "+input_qnt_dados.value+" dados de "+dado+" faces com modificador de "+input_modificador.value+ " é: "+numeroAleatorio;
+  output.innerHTML="O Resultado da sua rolagem de "+input_qnt_dados.value+"d"+dado+" com modificador de "+input_modificador.value+ " é: "+numeroAleatorio;
 }
 
 
