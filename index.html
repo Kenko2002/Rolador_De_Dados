@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Girador de Dados</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<header id="output">
+  Bem Vindo ao Site do Renzo para Rolar dados!
+</header>
+<br>
+
+<body>
+
+  <input id="num_dados" type="text" placeholder="Digite aqui a quantidade de dados" class="caixa_texto" />
+ 
+  <input id="modificador" type="text" placeholder="Digite aqui o Modificador:" class="caixa_texto" />
+  <br>
+  
+  <div class="agrupador_de_dados">
+    <div class="dado">
+      D4<br>
+      <img class="imagemdado" src="http://blob.firecast.com.br/blobs/DTOKIDUM_2640405/d4__1_.png">
+      <button onclick="rolarDado('4')" class="botao_dado" id="d4">Rolar!</button>
+    </div>
+  
+    <div class="dado">
+    D6<br>
+      <img class="imagemdado" src="http://blob.firecast.com.br/blobs/VCRRAWAK_2640402/perspective-dice-five.png">
+    <button onclick="rolarDado('6')" class="botao_dado" id="d6">Rolar!</button>
+    </div>
+  
+    <div class="dado">
+    D8<br>
+      <img class="imagemdado" src="http://blob.firecast.com.br/blobs/OILEJVWK_2640395/dice-eight-faces-eight__1_.png">
+    <button onclick="rolarDado('8')" class="botao_dado" id="d8">Rolar!</button>
+    </div>
+  
+    <br>
+    
+    <div class="dado">
+    D10<br>
+      <img class="imagemdado" src="http://blob.firecast.com.br/blobs/OJCUUBJR_2640397/d10.png">
+    <button onclick="rolarDado('10')" class="botao_dado" id="d10">Rolar!</button>
+    </div>
+  
+    <div class="dado">
+    D12<br>
+      <img class="imagemdado" src="http://blob.firecast.com.br/blobs/JJVCCPTL_2640403/d12.png">
+    <button onclick="rolarDado('12')" class="botao_dado" id="d12">Rolar!</button>
+    </div>
+  
+    <div class="dado">
+    D20<br>
+      <img class="imagemdado" src="http://blob.firecast.com.br/blobs/BDLRQIRV_2640406/dice-twenty-faces-twenty.png">
+    <button onclick="rolarDado('20')" class="botao_dado" id="d20">Rolar!</button>
+    </div>
+  </div>
+
+
+
+
+  
+<br><br><br>
+  <div class="wrapper-cube">
+    <div class="cube">
+      <div class="face front">1</div>
+      <div class="face back">2</div>
+      <div class="face right">3</div>
+      <div class="face left">4</div>
+      <div class="face top">5</div>
+      <div class="face bottom">6</div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

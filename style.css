@@ -1,0 +1,142 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://t4.ftcdn.net/jpg/03/02/24/03/360_F_302240356_qGADyljXwcPbioTAACmo1OdYY3vG6jBn.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+}
+
+.agrupador_de_dados{
+  text-align:center;
+  
+}
+
+header{
+  font-family:Verdana;
+  background-color: white;
+  margin:0;
+  border-radius: 50px;
+  text-align: center;
+  padding:15px;
+  font-size:17px;
+  width:100vh;
+}
+
+body{
+  justify-content: center;
+}
+
+.imagemdado{
+  height:80px;
+  width:80px;
+}
+/*configuração das divs dos dados*/
+.dado{
+  background-image:url("https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=360");
+  border: solid 10px;
+  font-family:Arial;
+  color:darkgrey;
+  border-color:black;
+  font-size:32px;
+  border-radius: 0 50px 0 50px;
+  height: 180px;
+  width: 180px;
+  text-align:center;
+  float: left;
+  margin:10px;
+}
+
+.botao_dado {
+height: 30px;
+width: 140px;
+border-radius: 20px;
+background: linear-gradient(to bottom, #3c95e6, #0178bd);
+border: none;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+color: white;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+
+.botao_dado:hover {
+transform: scale(1.1);
+background: linear-gradient(to bottom, #0178bd, #3c95e6);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+color: #fff;
+}
+
+.caixa_texto {
+border: none;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+color: black;
+width: 42%;
+height: 60px;
+background-image: url('"https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=360');
+background-size: cover;
+background-position: center;
+margin:15px;
+}
+
+.caixa_texto:focus {
+outline: none;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*configurações de um cubo 3d girando kkk*/
+.wrapper-cube {
+  display:none;
+  justify-content: top;
+  align-items: center;
+  height: 100vh;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate-cube 2s linear infinite;
+}
+
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  border: 1px solid #999;
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+
+.front {transform: translateZ(50px);}
+
+.back {transform: translateZ(-50px) rotateY(180deg);}
+
+.right {transform: rotateY(90deg) translateZ(50px);}
+
+.left {transform: rotateY(-90deg) translateZ(50px);}
+
+.top {transform: rotateX(90deg) translateZ(50px);}
+
+.bottom {transform: rotateX(-90deg) translateZ(50px);}
+
+@keyframes rotate-cube {
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+  
+}
