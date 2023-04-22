@@ -45,6 +45,7 @@ body{
   width: 180px;
   text-align:center;
   margin:10px;
+  background-position: center;
 }
 
 .botao_dado {
