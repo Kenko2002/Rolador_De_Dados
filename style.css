@@ -23,7 +23,7 @@ header{
 }
 
 body{
-  align-items: center;
+  justify-content: center;
 }
 
 .imagemdado{
@@ -42,6 +42,7 @@ body{
   height: 180px;
   width: 180px;
   text-align:center;
+  float: left;
   margin:10px;
 }
 
