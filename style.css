@@ -5,30 +5,38 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   text-align:center;
-  display: flex;
+  display: inline;
   justify-content: center;
 }
 
+.agrupador_de_inputs{
+  display:block;
+}
+.agrupador_de_dados{  
+ display:inline;
+ text-align: center;
+}
 
 header{
   font-family:Verdana;
   background-color: white;
-  margin:0;
   border-radius: 50px;
   text-align: center;
   padding:15px;
   font-size:17px;
-  width:100%;
-  margin-top:20px;
+  width:100vw;
+  display:block;
+  margin-left:1vw;
+  margin-right:1vw;
 }
 
 body{
-  justify-content: center;
+  display:inline;
 }
 
 .imagemdado{
-  height:80px;
-  width:80px;
+  height:20vh;
+  width:20vh;
 }
 /*configuração das divs dos dados*/
 .dado{
@@ -37,18 +45,18 @@ body{
   font-family:Arial;
   color:darkgrey;
   border-color:black;
-  font-size:32px;
-  border-radius: 0 50px 0 50px;
-  height: 180px;
-  width: 180px;
+  font-size:10vh;
+  border-radius: 0 10vh 0 10vh;
+  height: 50vh;
+  width: 33vw;
+  margin: auto; /* Centraliza a div horizontalmente */
   text-align:center;
-  float: left;
-  margin:10px;
+  float:left;
 }
 
 .botao_dado {
-height: 30px;
-width: 140px;
+height: 10vh;
+width: 30vh;
 border-radius: 20px;
 background: linear-gradient(to bottom, #3c95e6, #0178bd);
 border: none;
@@ -74,12 +82,15 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 font-size: 16px;
 font-family: "Roboto", sans-serif;
 color: black;
-width: 42%;
+width: 42vw;
 height: 60px;
 background-image: url('"https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=360');
 background-size: cover;
 background-position: center;
-margin:15px;
+margin-left:1vw;
+margin-right:1vw;
+margin-top:2vh;
+margin-bottom:2vh;
 }
 
 .caixa_texto:focus {
@@ -87,7 +98,3 @@ outline: none;
 box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-
-
-  
-}
