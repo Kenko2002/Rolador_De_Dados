@@ -11,10 +11,12 @@ html {
 
 .agrupador_de_inputs{
   display:block;
-}
-.agrupador_de_dados{  
- display:block;
- text-align: center;
+} 
+
+.agrupador_de_dados {
+  display: block;
+  text-align: center;
+  margin: 0 auto; /* Centraliza a div horizontalmente */
 }
 
 header{
