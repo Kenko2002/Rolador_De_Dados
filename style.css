@@ -13,7 +13,7 @@ html {
   display:block;
 }
 .agrupador_de_dados{  
- display:inline;
+ display:block;
  text-align: center;
 }
 
@@ -48,7 +48,7 @@ body{
   font-size:10vh;
   border-radius: 0 10vh 0 10vh;
   height: 50vh;
-  width: 28vw;
+  width: auto;
   margin: auto; /* Centraliza a div horizontalmente */
   text-align:center;
   float:left;
