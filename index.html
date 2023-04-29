@@ -12,16 +12,17 @@
 <header id="output">
   Bem Vindo ao Site do Renzo para Rolar dados!
 </header>
-<br>
 
 <body>
 
-  <input id="num_dados" type="text" placeholder="Digite aqui a quantidade de dados" class="caixa_texto" />
- 
-  <input id="modificador" type="text" placeholder="Digite aqui o Modificador:" class="caixa_texto" />
+<div class="agrupador_de_inputs">
+    <input id="num_dados" type="text" placeholder="Digite aqui a quantidade de dados" class="caixa_texto" />
+
+    <input id="modificador" type="text" placeholder="Digite aqui o Modificador:" class="caixa_texto" />
+  </agrupador_de_inputs>
   <br>
   
-
+  <div class="agrupador_de_dados">
     <div class="dado">
       D4<br>
       <img class="imagemdado" src="http://blob.firecast.com.br/blobs/DTOKIDUM_2640405/d4__1_.png">
@@ -39,8 +40,6 @@
       <img class="imagemdado" src="http://blob.firecast.com.br/blobs/OILEJVWK_2640395/dice-eight-faces-eight__1_.png">
     <button onclick="rolarDado('8')" class="botao_dado" id="d8">Rolar!</button>
     </div>
-  
-    <br>
     
     <div class="dado">
     D10<br>
@@ -59,11 +58,7 @@
       <img class="imagemdado" src="http://blob.firecast.com.br/blobs/BDLRQIRV_2640406/dice-twenty-faces-twenty.png">
     <button onclick="rolarDado('20')" class="botao_dado" id="d20">Rolar!</button>
     </div>
-
-
-
-
-
+  </div>
 
 
 
