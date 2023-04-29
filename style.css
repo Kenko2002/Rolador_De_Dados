@@ -48,7 +48,7 @@ body{
   font-size:10vh;
   border-radius: 0 10vh 0 10vh;
   height: 50vh;
-  width: 33vw;
+  width: 31vw;
   margin: auto; /* Centraliza a div horizontalmente */
   text-align:center;
   float:left;
@@ -56,7 +56,7 @@ body{
 
 .botao_dado {
 height: 10vh;
-width: 30vh;
+width: 30vw;
 border-radius: 20px;
 background: linear-gradient(to bottom, #3c95e6, #0178bd);
 border: none;
