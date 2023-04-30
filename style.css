@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
   background-image: url('https://t4.ftcdn.net/jpg/03/02/24/03/360_F_302240356_qGADyljXwcPbioTAACmo1OdYY3vG6jBn.jpg');
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   text-align:center;
   display: block;
@@ -40,21 +40,29 @@ body{
   height:20vh;
   width:20vh;
 }
-/*configuração das divs dos dados*/
-.dado{
-  background-image:url("https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=360");
+/*configuraÃ§Ã£o das divs dos dados*/
+.agrupador_de_dados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.dado {
+  background-image: url("https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=360");
   border: solid 10px;
-  font-family:Arial;
-  color:darkgrey;
-  border-color:black;
-  font-size:10vh;
+  font-family: Arial;
+  color: darkgrey;
+  border-color: black;
+  font-size: 10vh;
   border-radius: 0 10vh 0 10vh;
   height: 50vh;
-  width: auto;
-  margin: auto; /* Centraliza a div horizontalmente */
-  text-align:center;
-  float:right;
-  display:block;
+  width: 30%;
+  margin: 0.6%;
+  text-align: center;
+  display: block;
 }
 
 .botao_dado {
